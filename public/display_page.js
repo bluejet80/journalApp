@@ -17,93 +17,170 @@ const categories = [
     'Philosophy', // 8
     'Education', // 9
     'Math', // 10
+    'Systems Theory', // 11
+    'Choices', // 12
+    'Books', // 13
+    'Problem Solving', // 14
+    'Explanation', // 15
+    'Psychology', // 16
+    'Glass Blowing', // 17
+    'School', // 18
+    'Economics', // 19
+    'Drawing', // 20
+    'Steps of the Journey', // 21
   ],
   [
-    'perspective', // 0
-    'image of ourselves', // 1
-    'dreams', // 2
-    'ideas', // 3
-    'creative perspective', // 4
-    'motivation', // 5
-    'stress', // 6
-    'joy', // 7
-    'imagination', // 8
-    'the blues', // 9
-    'spirituality', // 10
-    'distraction', // 11
-    'advice', // 12
-    'subconscious', // 13
-    'dicipline', // 14
-    'experience', // 15
+    'Perspective', // 0
+    'Image of Ourselves', // 1
+    'Dreams', // 2
+    'Ideas', // 3
+    'Creative Perspective', // 4
+    'Motivation', // 5
+    'Stress', // 6
+    'Joy', // 7
+    'Imagination', // 8
+    'The Blues', // 9
+    'Spirituality', // 10
+    'Distraction', // 11
+    'Advice', // 12
+    'Subconscious', // 13
+    'Dicipline', // 14
+    'Experience', // 15
+    'Thankfulness', // 16
+    'Strength', // 17
+    'Weakness', // 18
+    'Contentment', // 19
+    'Ego', // 20
+    'Asking Why', // 21
+    'Feeling Unknown', // 22
+    'Darkness', // 23
+    'Honesty', // 24
+    'Misunderstood', // 25
+    'Something Wrong', // 26
+    'Asking for Help', // 27
+    'Suffering', // 28
+    'Letting Go', // 29
+    'Balance', // 30
   ],
   [
-    'government', // 0
-    'society', // 1
-    'media', // 2
-    'internet', // 3
-    'habits and routines', // 4
-    'deception of desire', // 5
-    'isreal', // 6
-    'relationships', // 7
-    'dark', // 8
-    'freedom', // 9
-    'colorado', // 10
-    'sports', // 11
-    'safety', // 12
-    'wyoming', // 13
-    'liquor store', // 14
+    'Government', // 0
+    'Society', // 1
+    'Media', // 2
+    'Internet', // 3
+    'Habits and Routines', // 4
+    'Deception of Desire', // 5
+    'Isreal', // 6
+    'Relationships', // 7
+    'Public Place', // 8
+    'Freedom', // 9
+    'Colorado', // 10
+    'Sports', // 11
+    'Safety', // 12
+    'Wyoming', // 13
+    'Liquor Store', // 14
+    'Old Age', // 15
+    'Art', // 16
+    'Alchohol', // 17
+    'Kansas', // 18
+    'The Planet Earth', // 19
+    'Youth', // 20
+    'Headlines', // 21
+    'Before Technology', // 22
+    'Loss', // 23
+    'Chaos', // 24
+    'Parties', // 25
+    'The Ocean', // 26
+    'Space', // 27
+    'Cliff', // 28
+    'Alley', // 29
+    'Surface', // 30
   ],
   [
-    'watching television', // 0
-    'healthy behavior', // 1
-    'unhealthy behavior', // 2
-    'expression', // 3
-    'becoming angry', // 4
-    'steps of the journey', // 5
-    'sacrifice', // 6
-    'travelling and exploration', // 7
-    'observation and description', // 8
-    'bravery and courage', // 9
-    'self justification', // 10
-    'solitude', // 11
-    'self presentation', // 12
-    'conflict', // 13
-    'accomplishment', // 14
-    'destruction', // 15
-    'organization', // 16
-    'greed', // 17
-    'love', // 18
-    'struggle', // 19
+    'Watching Television', // 0
+    'Healthy Behavior', // 1
+    'Unhealthy Behavior', // 2
+    'Expression', // 3
+    'Becoming Angry', // 4
+    'Control', // 5
+    'Sacrifice', // 6
+    'Travelling and Exploration', // 7
+    'Observation and Description', // 8
+    'Bravery and Courage', // 9
+    'Self Justification', // 10
+    'Solitude', // 11
+    'Self Presentation', // 12
+    'Conflict', // 13
+    'Accomplishment', // 14
+    'Destruction', // 15
+    'Organization', // 16
+    'Greed', // 17
+    'Love', // 18
+    'Struggle', // 19
+    'Waster and Excess', // 20
+    'Patience', // 21
+    'Hard Work', // 22
+    'Exploration', // 23
+    'Description', // 24
+    'Relaxation', // 25
+    'Physical Affection', // 26
+    'Communication', // 27
+    'Preventing Discomfort', // 28
+    'Persistence', // 29
+    'Criticism', // 30
+    'Conforming', // 31
   ],
   [
-    'adaptation and evolution', // 0
-    'physical body', // 1
-    'birds', // 2
-    'physical forces', // 3
-    'river', // 4
-    'natures example', // 5
-    'beauty of nature', // 6
-    'death', // 7
-    'countryside', // 8
-    'the mind', // 9
-    'trees', // 10
+    'Adaptation', // 0
+    'Physical Body', // 1
+    'Birds', // 2
+    'Physical Forces', // 3
+    'River', // 4
+    'Natures Example', // 5
+    'Beauty of Nature', // 6
+    'Death', // 7
+    'Countryside', // 8
+    'The Mind', // 9
+    'Trees', // 10
+    'Cows', // 11
+    'Hands', // 12
+    'Evolution', // 13
+    'Birth', // 14
+    'The Senses', // 15
+    'Color', // 16
+    'Nurturing', // 17
+    'Stars', // 18
+    'Women', // 19
   ],
   [
-    'transportation', // 0
-    'logic gates', // 1
-    'wear and tear', // 2
-    'deconstruction', // 3
-    'build', // 4
-    'defense mechanism', // 5
-    'time', // 6
-    'trains', // 7
-    'cars', // 8
+    'Transportation', // 0
+    'Logic Gates', // 1
+    'Wear and Tear', // 2
+    'Deconstruction', // 3
+    'Build', // 4
+    'Defense Mechanism', // 5
+    'Time', // 6
+    'Trains', // 7
+    'Cars', // 8
+    'Handwriting', // 9
+    'Nuclear Bomb', // 10
+    'Violin', // 11
+    'Metal', // 12
+    'A Ship', // 13
   ],
 ];
 
 // functions
 
-const getCat = function (obj, array) {};
+const getCat = function (cat_array, pg_array) {
+  const newArray = [];
+  pg_array.forEach(item => {
+    const [a, b] = item.split('.');
+    console.log(a, b);
+    newArray.push(cat_array[a - 1][b]);
+  });
+  console.log(newArray);
+  return newArray;
+};
 
 const getData = async function () {
   const data = await fetch('/pages');
@@ -117,7 +194,7 @@ const getData = async function () {
   const res = await getData();
   const data = await res.data.pages;
   data.forEach(function (item) {
-    const cat = item.category;
+    const catArray = getCat(categories, item.category);
     const html = `
       <div class="node ltgreen">
         <table>
@@ -147,7 +224,7 @@ const getData = async function () {
           </tr>
           <tr>
             <td>Categories:</td>
-            <td>Writing, The Blues, Society, Encouragement, Trains</td>
+            <td>${catArray.join(', ')}</td>
           </tr>
         </table>
 `;
