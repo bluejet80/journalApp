@@ -3,6 +3,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const fs = require('fs');
+const { json } = require('express/lib/response');
 
 const app = express();
 
@@ -19,6 +20,13 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.status(200).send('Hello from the server!');
+});
+
+app.get('/pages', (req, res) => {
+  res.status(200).json({
+    status: 'success',
+    data: { pages },
+  });
 });
 
 app.post('/add_journal_page', (req, res) => {

@@ -39,10 +39,26 @@ So I need to setup two arguments for the endpoint. And then it should be able to
 
 This will just be the pages endpoint. /pages
 
+So the best way to display the content is to use the insertAdjacentHTML with the afterbegin argument. Here is an example:
+
+    const displayMovements = function(movements) {
+    containerMovements.innerHTML = '';
+    movements.forEach(function(mov, i){
+    const type = mov > 0 ? 'deposit' : 'withdrawal'
+            const html = `
+    <div class="movements__row">
+            <div class="movements__type movements__type--${type}">${i + 1} - ${type}</div>
+            <div class="movements__value">${mov}€</div>
+            </div>`;
+        containerMovements.insertAdjacentHTML('afterbegin',html);
+        })
+    }
+
 ## Display Pages associated with categories
 
 I want to input one or more categories and get the pages associated with those categories.
 
 This functionality will involve a couple of different approaches
 
-1. There could be
+1. Either it returns pages with this or that category in them
+2. Or it returns pages with only both categories in them.

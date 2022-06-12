@@ -132,6 +132,17 @@ label {
   text-align: center;
 }
 
+.node {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+td {
+  padding: 5px;
+  border-bottom: 1px solid black;
+  min-width: 100px;
+}
+
 /*  Color Styles */
 
 .maroongrad {
